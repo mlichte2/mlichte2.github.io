@@ -64,5 +64,5 @@ html, body {
 }
 
 body {
-  background:linear-gradient(to top, #58151A, #BC2909, #BA6D09, #71A8EE, #3072EB, #1552C6, #0542A8);
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/1455.jpg"); background-size: cover;
 }
