@@ -1,0 +1,104 @@
+/* using https://coolors.co/ to help with my color scheme
+
+raisin black #231B1B
+honeydew #D5F2E3
+vivid tangerine #FB9F89
+ming #587B7F
+purple navy #655A7C */
+
+
+body {
+    background-color: #D5F2E3;
+    margin: 0px;
+    font-family: Futura, Helvetica, sans-serif, Arial;
+    
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 200px;
+    margin: 10px;
+    border: 5px solid #655A7C;
+}
+
+header, footer {
+    color: #655A7C;
+    background-color: #FB9F89;
+    border-bottom-left-radius: 2.5%;
+    border-bottom-right-radius: 2.5%;
+    border: 1px solid #655A7C;
+}
+
+.header-text {
+    padding: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+main {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h2 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ul {
+    text-align: center;
+    max-width: max-content;
+}
+
+li {
+    text-align: left;
+}
+
+.content-section {
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content-section:hover {
+    transition: transform .2s;
+    transform: scale(1.10);
+}
+
+#links {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: blue; 
+   }
+
+a:hover {
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 25px;
+    border-top-left-radius: 2.5%;
+    border-top-right-radius: 2.5%;
+}
+
+.footer-text {
+    text-align: center;   
+    
+}
+
+h3 {
+    font-size: 12px;
+}
