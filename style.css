@@ -65,6 +65,10 @@ li {
     padding: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid #587B7F;
+    margin: 20px;
 }
 
 .content-section:hover {
@@ -102,7 +106,7 @@ footer {
 
 .footer-text {
     text-align: center;   
-
+    font-size: 10px;
 }
 
 h3 {
@@ -117,4 +121,47 @@ h3:hover {
 
 .info {
     text-align: left;
+}
+
+.dark-mode {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#dark-mode-button {
+
+    text-align: center;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.button-mode-dark {
+    background-color: black;
+    color: white;
+}
+
+.button-mode-light {
+    background-color: white;
+    color: black;
+}
+
+
+#dark-mode-button:hover {
+    transition: transform .2s;
+    transform: scale(1.10);
+    cursor:pointer;
+    border: 1px solid tomato;
+}
+
+.header-footer-dark-mode {
+
 }
