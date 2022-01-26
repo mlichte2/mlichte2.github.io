@@ -97,6 +97,7 @@ footer {
     margin-top: 25px;
     border-top-left-radius: 2.5%;
     border-top-right-radius: 2.5%;
+    height: 75px;
 }
 
 .footer-text {
@@ -112,4 +113,8 @@ h3 {
 h3:hover {
     transition: transform .2s;
     transform: scale(1.10);
+}
+
+.info {
+    text-align: left;
 }
