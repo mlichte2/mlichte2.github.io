@@ -39,11 +39,6 @@ header, footer {
     text-align: center;
 }
 
-/* .header-text:hover {
-    transition: transform .2s;
-    transform: scale(1.10);
-} */
-
 main {
     max-width: 550px;
     margin-left: auto;

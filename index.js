@@ -5,7 +5,7 @@ const links = document.querySelectorAll("a");
 const header = document.querySelector("header");
 const footer = document.querySelector("footer");
 
-let buttonValue = true;
+let lightModeStatus = true;
 
 toggleButton.addEventListener("click", () => {
   toggleLightDarkMode();
@@ -21,7 +21,7 @@ const toggleLightDarkMode = () => {
   header.classList.toggle("header-footer-dark-mode");
   footer.classList.toggle("header-footer-dark-mode");
   function switchText() {
-    if (buttonValue === false) {
+    if (lightModeStatus === false) {
       toggleButton.innerText = "Light Mode 🔆";
       links.forEach((element) => {
         element.style.setProperty("color", "orange");
@@ -33,6 +33,6 @@ const toggleLightDarkMode = () => {
       });
     }
   }
-  buttonValue = !buttonValue;
+  lightModeStatus = !lightModeStatus;
   switchText();
 };
