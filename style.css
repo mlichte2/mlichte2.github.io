@@ -11,7 +11,6 @@ body {
     background-color: #D5F2E3;
     margin: 0px;
     font-family: Futura, Helvetica, sans-serif, Arial;
-    
 }
 
 .profile-picture {
@@ -29,16 +28,21 @@ header, footer {
     border: 1px solid #655A7C;
 }
 
+.header-footer-dark-mode {
+    background-color: #655A7C;
+    color: #FB9F89
+}
+
 .header-text {
     padding: 10px;
     font-style: italic;
     text-align: center;
 }
 
-.header-text:hover {
+/* .header-text:hover {
     transition: transform .2s;
     transform: scale(1.10);
-}
+} */
 
 main {
     max-width: 550px;
@@ -92,9 +96,6 @@ a:visited {
     color: blue; 
    }
 
-a:hover {
-    font-size: 20px;
-}
 
 footer {
     text-align: center;
@@ -128,7 +129,9 @@ h3:hover {
     color: white;
 }
 
-
+.link-dark-mode {
+    color: orange;
+}
 
 #button-container {
     display: flex;
@@ -162,6 +165,3 @@ h3:hover {
     border: 1px solid tomato;
 }
 
-.header-footer-dark-mode {
-
-}
