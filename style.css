@@ -6,157 +6,154 @@ vivid tangerine #FB9F89
 ming #587B7F
 purple navy #655A7C */
 
-
 body {
-    background-color: #D5F2E3;
-    margin: 0px;
-    font-family: Futura, Helvetica, sans-serif, Arial;
+  background-color: #d5f2e3;
+  margin: 0px;
+  font-family: Futura, Helvetica, sans-serif, Arial;
 }
 
 .profile-picture {
-    border-radius: 50%;
-    width: 200px;
-    margin: 10px;
-    border: 5px solid #655A7C;
+  border-radius: 50%;
+  width: 200px;
+  margin: 10px;
+  border: 5px solid #655a7c;
 }
 
-header, footer {
-    color: #655A7C;
-    background-color: #FB9F89;
-    border-bottom-left-radius: 2.5%;
-    border-bottom-right-radius: 2.5%;
-    border: 1px solid #655A7C;
+header,
+footer {
+  color: #655a7c;
+  background-color: #fb9f89;
+  border-bottom-left-radius: 2.5%;
+  border-bottom-right-radius: 2.5%;
+  border: 1px solid #655a7c;
 }
 
 .header-footer-dark-mode {
-    background-color: #655A7C;
-    color: #FB9F89
+  background-color: #655a7c;
+  color: #fb9f89;
 }
 
 .header-text {
-    padding: 10px;
-    font-style: italic;
-    text-align: center;
+  padding: 10px;
+  font-style: italic;
+  text-align: center;
 }
 
 main {
-    max-width: 550px;
-    margin-left: auto;
-    margin-right: auto;
+  /* width: 1200px; */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-
 h2 {
-    font-style: italic;
-    text-decoration: underline;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 ul {
-    text-align: center;
-    max-width: max-content;
+  text-align: center;
+  max-width: max-content;
 }
 
 li {
-    text-align: left;
+  text-align: left;
 }
 
 .content-section {
-    padding: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: white;
-    border-radius: 25px;
-    border: 2px solid #587B7F;
-    margin: 20px;
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid #587b7f;
+  margin: 20px;
+  width: 510px;
 }
 
-.content-section:hover {
-    transition: transform .2s;
-    transform: scale(1.10);
-}
+/* .content-section:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+} */
 
 #links {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
-    text-decoration: none;
-
+  text-decoration: none;
 }
 
-a:visited { 
-    text-decoration: none; 
-    color: blue; 
-   }
-
+a:visited {
+  text-decoration: none;
+  color: blue;
+}
 
 footer {
-    text-align: center;
-    margin-top: 25px;
-    border-top-left-radius: 2.5%;
-    border-top-right-radius: 2.5%;
-    height: 75px;
+  text-align: center;
+  margin-top: 25px;
+  border-top-left-radius: 2.5%;
+  border-top-right-radius: 2.5%;
+  height: 75px;
 }
 
 .footer-text {
-    text-align: center;   
-    font-size: 10px;
+  text-align: center;
+  font-size: 10px;
 }
 
 h3 {
-    font-size: 12px;
-
+  font-size: 12px;
 }
 
-h3:hover {
-    transition: transform .2s;
-    transform: scale(1.10);
-}
+/* h3:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+} */
 
 .info {
-    text-align: left;
+  text-align: left;
 }
 
 .dark-mode {
-    background-color: rgb(37, 37, 37);
-    color: white;
+  background-color: rgb(37, 37, 37);
+  color: white;
 }
 
 .link-dark-mode {
-    color: orange;
+  color: orange;
 }
 
 #button-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #dark-mode-button {
-
-    text-align: center;
-    border: none;
-    padding: 10px;
-    border-radius: 25px;
-    margin-top: 10px;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 10px;
 }
 
 .button-mode-dark {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .button-mode-light {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
-
 
 #dark-mode-button:hover {
-    transition: transform .2s;
-    transform: scale(1.10);
-    cursor:pointer;
-    border: 1px solid tomato;
+  transition: transform 0.2s;
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 1px solid tomato;
 }
-

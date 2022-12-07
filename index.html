@@ -1,91 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
     <title>About Michael Lichtenberger</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="header-text">
-            <img src="images/profile-pic.png" class="profile-picture">
-            <h1>Michael Lichtenberger</h1>
-        </div>
+      <div class="header-text">
+        <img src="images/profile-pic.png" class="profile-picture" />
+        <h1>Michael Lichtenberger</h1>
+      </div>
     </header>
+    <div id="button-container">
+      <button id="dark-mode-button" class="button-mode-dark">
+        Dark Mode 🌝
+      </button>
+    </div>
+
     <main>
-        <div id="button-container">
-            <button id="dark-mode-button" class="button-mode-dark">Dark Mode 🌝</button>
-        </div>
-
-        <div class="content-section">
-            <h2>About me</h1>
-                <p> A Chicago-based, technical-troubleshooter with experience in payments. I work with Braintree
-                    (PayPal)
-                    as a Technical Support Engineer and assist merchants with their integration and
-                    processing issues.
-                </p>
-        </div>
-        <div class="content-section">
-            <h2>Interests</h2>
-            <ul>
-                <li>Javascript</li>
-                <li>Svelte, Vue</li>
-                <li>Node.js, Express.js</li>
-                <li>Raspberry Pis</li>
-                <li>Running</li>
-                <li>Brewing Beer</li>
-                <li>History</li>
-            </ul>
-        </div>
-        <div class="content-section">
-            <h2>Qualifications / Certifications</h2>
-            <p>Always Chasing More 📜!</p>
-            <ul>
-                <li>B.A. Biology, University of Iowa | May 2017</li>
-                <li>Javascript Development, General Assembly | Sept. 2021</li>
-            </ul>
-        </div>
-        <div class="content-section">
-            <h2>Find Me!</h2>
-            <ul id="links">
-                <li><a href="mailto: lichtenberger.dev@gmail.com" class="link-items">lichtenberger.dev@gmail.com</a>
-                </li>
-                <li><a href="https://github.com/mlichte2" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/mlichte" target="_blank" rel="noopener noreferrer">Linkedin</a>
-                </li>
-            </ul>
-        </div>
-        <div class="content-section">
-            <h2>Projects</h2>
-            <ul>
-                <li>Checkbreaker (<a href="https://github.com/mlichte2/checkbreaker" target="_blank"
-                        rel="noopener noreferrer">Repo</a>, <a href="http://mlichtenberger.com/checkbreaker/"
-                        target="_blank" rel="noopener noreferrer">Live Site</a>)</li>
-                <p class="info">An app to help break down who owes what for a dinner bill. Inspired by the time I went
-                    out to eat
-                    with friends and put it all on my card. Ended up spending an hour in an excel sheet to calculate it.
-                    Built with Svelte :)</p>
-                <li>Braintree Drop-in (<a href="https://github.com/mlichte2/braintree-dropin-ui" target="_blank"
-                        rel="noopener noreferrer">Repo</a>, <a href="https://mikrs-braintree-drop-in.herokuapp.com/"
-                        target="_blank" rel="noopener noreferrer">Live Site</a>)</li>
-                <p class="info">I am working on learning Express and figured a Braintree integration would be a good
-                    idea. Currently it is a testing station, but I plan on adding a database to it in the future.</p>
-            </ul>
-        </div>
+      <div class="content-section">
+        <h2>About me</h2>
+        <p>
+          A Chicago-based, technical-troubleshooter with experience in payments.
+          I work with Braintree (PayPal) as a Technical Support Engineer and
+          assist merchants with their integration and processing issues.
+        </p>
+      </div>
+      <div class="content-section">
+        <h2>Interests</h2>
+        <ul>
+          <li>Javascript</li>
+          <li>Svelte, Vue</li>
+          <li>Node.js, Express.js</li>
+          <li>Raspberry Pis</li>
+          <li>Running</li>
+          <li>Brewing Beer</li>
+          <li>History</li>
+        </ul>
+      </div>
+      <div class="content-section">
+        <h2>Qualifications / Certifications</h2>
+        <p>Always Chasing More 📜!</p>
+        <ul>
+          <li>B.A. Biology, University of Iowa | May 2017</li>
+          <li>Javascript Development, General Assembly | Sept. 2021</li>
+        </ul>
+      </div>
+      <div class="content-section">
+        <h2>Find Me!</h2>
+        <ul id="links">
+          <li>
+            <a href="mailto: lichtenberger.dev@gmail.com" class="link-items"
+              >lichtenberger.dev@gmail.com</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/mlichte2"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/mlichte"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Linkedin</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="content-section">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            Checkbreaker (<a
+              href="https://github.com/mlichte2/checkbreaker"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Repo</a
+            >,
+            <a
+              href="http://mlichtenberger.com/checkbreaker/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live Site</a
+            >)
+          </li>
+          <p class="info">
+            An app to help break down who owes what for a dinner bill. Inspired
+            by the time I went out to eat with friends and put it all on my
+            card. Ended up spending an hour in an excel sheet to calculate it.
+            Built with Svelte :)
+          </p>
+          <li>
+            Braintree Drop-in (<a
+              href="https://github.com/mlichte2/braintree-dropin-ui"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Repo</a
+            >,
+            <a
+              href="https://mikrs-braintree-drop-in.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Live Site</a
+            >)
+          </li>
+          <p class="info">
+            I am working on learning Express and figured a Braintree integration
+            would be a good idea. Currently it is a testing station, but I plan
+            on adding a database to it in the future.
+          </p>
+        </ul>
+      </div>
     </main>
-    <footer>
-        <div>
-            <h3>@mlichtenberger, 2022</h3>
-            <p class="footer-text">Hosted with Github Pages and AWS Route 53</p>
-        </div>
-    </footer>
-</body>
-<script src="/index.js"></script>
 
+    <footer>
+      <div>
+        <h3>@mlichtenberger, 2022</h3>
+        <p class="footer-text">Hosted with Github Pages and AWS Route 53</p>
+      </div>
+    </footer>
+  </body>
+  <script src="/index.js"></script>
 </html>
